@@ -19,9 +19,9 @@ else :
 # 2. finding multiples of any number 
 
 number = int (input( " enter the number you want multiples of "))
-for t in range ( 0,number*11,number):
-  print (t)
-print ("                                                                                                            ") 
+# for t in range ( 0,number*11,number):
+#   print (t)
+# print ("                                                                                                            ") 
 for e in range (1,11):
   print ( number*e)
 
@@ -69,9 +69,9 @@ list.sort(reverse=True)
 print (list)
 
 # 6. compressing string
-list = ("aaabbcccc")
-for t in list:
- print(t,list.count(t))
+# list = ("aaabbcccc")
+# for t in list:
+#  print(t,list.count(t))
 
 
 
@@ -119,9 +119,9 @@ for t in list :
 
 
 # data = ( 1,2,3,4)
-pan = list(data)
-pan.sort( reverse = True)                    #OUTPUT = ( 4,3,2,1,)
-data = tuple ( pan)
+# pan = list(data)
+# pan.sort( reverse = True)                    #OUTPUT = ( 4,3,2,1,)
+# data = tuple ( pan)
 # print ( data)
 
 
@@ -177,3 +177,27 @@ else:
    ("the value should be betweeen 5and 9")
 
 
+     # finding the nearest square of given input
+num  = float(input('Enter a number :'))
+g=[]
+f=[]
+c=[]
+for i in range (1,1000):
+      k= i**2
+      g.append(k)
+      if i**2 == num:
+       print("the number you entered is a perfect square")
+       break
+
+      else :
+  
+         h= abs(num-k)  
+         f.append(h)
+         c.append(k)
+a=f.index(min(f))
+y=c[a]
+ 
+          
+        
+
+print(f'the nearest square to your number is {y}')
