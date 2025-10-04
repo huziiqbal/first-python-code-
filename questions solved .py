@@ -18,25 +18,30 @@ else :
 
 # 2. finding multiples of any number 
 
-number = int (input( " enter the number you want multiples of "))
-# for t in range ( 0,number*11,number):
-#   print (t)
-# print ("                                                                                                            ") 
+number = int (input( " enter the number you want multiples of ")) 
 for e in range (1,11):
   print ( number*e)
 
 # 3. even and odd number finder from list
 
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 58, 47, 86, 52, 55, 99,85,9,6,88,79,89,58,68,8]
-for w in list:
-  if w%2==0 :
-    print ("even number from list is", w)
 
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 58, 47, 86, 52, 55, 99,85,9,6,88,79,89,58,68,8]
+k=[]
+g=[]
+for w in list:
+  h=w%2==0 
+  if h:
+    k.append(w)
+print("even numbers from list are : ")
+print(k)
 print ("                                                                                                            ") 
 
 for t in list:
-  if t%2 !=2 :
-    print ( "odd number from list is ",t)
+  s=t%2 !=2 
+  if s:
+    g.append(t)
+print ( "odd numbers from list are :")
+print(g)
 
 
 # 4. finding repeating entry in a list 
