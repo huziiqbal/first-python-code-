@@ -11,3 +11,10 @@ except ValueError:
   
 finally:
  print("the program has ended")
+
+ # comparing numbers using short hand if else statements 
+a = int(input("enter the first number"))
+b = int(input("enter the second number"))
+c = int(input("enter the third number"))
+print("the largest number anongg all the input is :")
+print(a) if a > b >c or a>c>b else print(b) if b>a>c or b>c>a else print(c)
