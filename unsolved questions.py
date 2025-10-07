@@ -15,15 +15,8 @@ for y in k :
      print(r,dict(zip(k,j)) ) # unsolved 
      
 
-     # samjh jaa khud 
+     # understand yourself  
 a = (input("Enter any value between 5 and 9"))
 
 class HuzaifaerError(Exception):
     pass
-
-
-
-
-
-
-                                        print("Huzaifa iqbal's linkedin")
