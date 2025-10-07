@@ -22,3 +22,5 @@ if purpose == "decode":
      e = {v: k for k, v in code.items()}
      print(e[y], end="")
      
+
+     
