@@ -1,3 +1,5 @@
-"he is a good boy"
-"he is very hardworking"
-"but sometimes he gets tired"
+"Python is fun"
+"It is powerful"
+"File handling is easy"
+"File handling is tough easy"
+"File handling is mid easy"

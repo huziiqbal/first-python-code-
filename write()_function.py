@@ -26,3 +26,26 @@ w= open("sample.py","r")
 f=w.readline()
 print(f,end="")
 w.close()
+
+
+#QUESTIONS BASED ON ABOVE CONCEPT
+
+#1.PRINT THE GIVEN SENTENCES TO SAMPLE.PY , EACH SENTENCE IN A NEW LINE...
+
+lines = ['"Python is fun"', '"It is powerful"', '"File handling is easy"']
+k=open("sample.py","w")
+for u in lines:
+   k.writelines(u+'\n')
+k.close()
+   
+#2. PRIINT FIRST 3 LINES FROM SAMPLE.PY WITHOUT ANY EXTRA BLANK IN BETWEEN ..
+
+k=open("sample.py","r")
+for g in range(3) :
+   g=k.readline()
+  
+   if not g :
+      break
+   print(g,end="")
+k.close() 
+   
