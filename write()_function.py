@@ -1,10 +1,14 @@
-# #writelines() function
+#writelines() function
+h = ['"he is a good boy"\n', '"he is very hardworking"\n', '"but sometimes he gets tired"\n']
+k = open("sample.py", "w") 
+k.writelines(h)
+k.close()
 
-h=['"he is a good boy"','"he is also very hardworking"','"but sometimes he gets tired"']
-k= open("sample.py","w") 
-
+# writelines() function
+h = ['"he is a good boy"','"he is very hardworking"', '"but sometimes he gets tired"']
+k = open("sample.py", "w") 
 for u in h:
-   k.write(u+'\n')
+   k.writelines(u+'\n')
 k.close()
 
 # readlines function
@@ -22,4 +26,3 @@ w= open("sample.py","r")
 f=w.readline()
 print(f,end="")
 w.close()
-
