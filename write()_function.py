@@ -15,4 +15,11 @@ while True:
      break
    print(g,end="")
 y.close()
+  
+
+
+w= open("sample.py","r")
+f=w.readline()
+print(f,end="")
+w.close()
 
