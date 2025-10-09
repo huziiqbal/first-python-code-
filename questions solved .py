@@ -175,11 +175,11 @@ else:
   try:
    num=int(a)
    if(int(a)<5  or int(a)>9 ):
-    raise Error("Value should be between 5 and 9")
+    raise ValueError("Value should be between 5 and 9")
    else: 
      print("you entered ",num)
   except ValueError :
-   ("the value should be betweeen 5and 9")
+   print("the value should be betweeen 5and 9")
 
 
      # finding the nearest square of given input
