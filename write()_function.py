@@ -38,7 +38,7 @@ for u in lines:
    k.writelines(u+'\n')
 k.close()
    
-#2. PRIINT FIRST 3 LINES FROM SAMPLE.PY WITHOUT ANY EXTRA BLANK IN BETWEEN ..
+#2. PRIINT FIRST 3 LINES FROM SAMPLE.PY WITHOUT ANY EXTRA BLANK LINES
 
 k=open("sample.py","r")
 for g in range(3) :
