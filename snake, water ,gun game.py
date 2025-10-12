@@ -15,8 +15,7 @@ while i<=n:
     [w, l, d]
   ]
   print(f"The computer's choice was : {u} \n")
-  print(matrix[o][u])
-
+  print(f'{(matrix[o][u])}\n')
   i=i+1
   if matrix[o][u] == w:
     users_points = users_points+1
