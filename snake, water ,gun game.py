@@ -9,11 +9,9 @@ while i<=n:
   d="⚖️ This round was draw ⚖️"
   w="🎉 You won this round 🎉"
   l="😵 You loose this round 😵"
-  matrix = [
-    [d, w, l],
-    [l, d, w],
-    [w, l, d]
-  ]
+  matrix = [[d, w, l],
+            [l, d, w],
+            [w, l, d]]
   print(f"The computer's choice was : {u} \n")
   print(f'{(matrix[o][u])}\n')
   i=i+1
