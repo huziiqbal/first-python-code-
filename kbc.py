@@ -64,16 +64,11 @@ while True:
   amount=0
   for e in range(len(ques)):
    k=(f'Question number {n[e]} which is for {p[e]} is:                                             \n{ques[e][0]}?                                            \nYour options are:                                                                                 \n1.{ques[e][1]}\n2.{ques[e][2]}\n3.{ques[e][3]}\n4.{ques[e][4]}') 
-   print(k)
-   print ("                                            ")
+   print(f'{k}\n')
    i = int(input("Enter you answer"))
    if i==ques[e][5]:
-    print("Correct answer✅")
-    print ("                                                     ")
-    print(f'You Won {p[e]}')
-    print ("                                                                                                    ")
-    
-
+    print(f"Correct answer✅ \n")
+    print(f'You Won {p[e]}\n')
    else:
     print("Wrong answer❌")
     print(f'you still won {p[e-1]}')
