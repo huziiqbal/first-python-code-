@@ -1,11 +1,4 @@
-print ("WELCOME TO KBC \n") 
-print( "HAVE A SEAT \n")
-print ( "THE RULES OF THE GAME ARE AS FOLLOW :\n")
-print ("1.THERE ARE 10 QUESTIONS IN THE GAME ")
-print("2.EACH QUESTION HAS 4 OPTIONS")
-print ("3.YOU HAVE RE TO SELECT A CORRECT OPTION ")
-print ('4.EVERY CORRECT ANSWER WILL WIN YOU 10000 RUPEES\n')
-print( "SO LETS BEGIN THE GAME")
+print ("WELCOME TO JOINT ENTRANCE EXAM \n HAVE A SEAT \n THE RULES OF THE EXAM ARE AS FOLLOW :\n 1.THERE ARE 10 QUESTIONS IN THE EXAM \n 2.EACH QUESTION HAVE 4 OPTIONS \n 3.YOU HAVE TO SELECT A CORRECT OPTION \n 4.EVERY CORRECT ANSWER WILL AWARD YOU +4 MARKS \n")
 n= [1,2,3,4,5,6,7,8,9,10]
 p=["NIET","IET","NIT MANIPUR","NIT SILCHAR","NIT CALICUT","IIIT ALLAHABAD","IIT BHUBANESWAR","IIT HYDERABAD","IIT DELHI","IIT BOMBAY"]
 q= ["what is the capital of india" , " delhi ",
@@ -55,8 +48,8 @@ q10=["An electron moving in a straight line when entered in an magnetic fiels wi
 ques= [ q,q2,q3,q4,q5,q6,q7,q8,q9,q10]
 while True:
   for e in range(len(ques)):
-   k=(f'Question number {n[e]} which is:')                
-   print(f'{k} \n{ques[e][0]}? \nYour options are:\n1.{ques[e][1]}\n2.{ques[e][2]}\n3.{ques[e][3]}\n4.{ques[e][4]}') 
+   k=(f'Question number {n[e]} is:\n')                
+   print(f'{k} \n{ques[e][0]}? \n \nYour options are:\n1.{ques[e][1]}\n2.{ques[e][2]}\n3.{ques[e][3]}\n4.{ques[e][4]}') 
    print(f'{k}\n')
    i = int(input("Enter you answer"))
    if i==ques[e][5]:
