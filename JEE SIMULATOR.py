@@ -49,7 +49,7 @@ ques= [ q,q2,q3,q4,q5,q6,q7,q8,q9,q10]
 while True:
   for e in range(len(ques)):
    k=(f'Question number {n[e]} is:\n')                
-   print(f'{k} \n{ques[e][0]}? \n \nYour options are:\n1.{ques[e][1]}\n2.{ques[e][2]}\n3.{ques[e][3]}\n4.{ques[e][4]}') 
+   print(f'{k} \n{ques[e][0]}? \n \n Your options are:\n1.{ques[e][1]}\n2.{ques[e][2]}\n3.{ques[e][3]}\n4.{ques[e][4]}') 
    print(f'{k}\n')
    i = int(input("Enter you answer"))
    if i==ques[e][5]:
