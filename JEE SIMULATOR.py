@@ -5,11 +5,9 @@ print ("1.THERE ARE 10 QUESTIONS IN THE GAME ")
 print("2.EACH QUESTION HAS 4 OPTIONS")
 print ("3.YOU HAVE RE TO SELECT A CORRECT OPTION ")
 print ('4.EVERY CORRECT ANSWER WILL WIN YOU 10000 RUPEES\n')
-print( " SO LETS BEGIN THE GAME")
+print( "SO LETS BEGIN THE GAME")
 n= [1,2,3,4,5,6,7,8,9,10]
-p=[10000,20000,40000,80000,160000,320000,640000,125000,2500000,5000000]
-
-
+p=["NIET","IET","NIT MANIPUR","NIT SILCHAR","NIT CALICUT","IIIT ALLAHABAD","IIT BHUBANESWAR","IIT HYDERABAD","IIT DELHI","IIT BOMBAY"]
 q= ["what is the capital of india" , " delhi ",
     " mumbai ",
   " chandigrh",
@@ -56,20 +54,18 @@ q10=["An electron moving in a straight line when entered in an magnetic fiels wi
      "at ab angle to its velocity ",3]
 ques= [ q,q2,q3,q4,q5,q6,q7,q8,q9,q10]
 while True:
-  amount=0
   for e in range(len(ques)):
-   k=(f'Question number {n[e]} which is for {p[e]} is: \n{ques[e][0]}? \nYour options are:\n1.{ques[e][1]}\n2.{ques[e][2]}\n3.{ques[e][3]}\n4.{ques[e][4]}') 
+   k=(f'Question number {n[e]} which is:')                
+   print(f'{k} \n{ques[e][0]}? \nYour options are:\n1.{ques[e][1]}\n2.{ques[e][2]}\n3.{ques[e][3]}\n4.{ques[e][4]}') 
    print(f'{k}\n')
    i = int(input("Enter you answer"))
    if i==ques[e][5]:
-    print(f"Correct answer✅ \n")
-    print(f'You Won {p[e]}\n')
+    print(f'Correct answer✅ \n')
    else:
     print("Wrong answer❌")
-    print(f'you still won {p[e-1]}')
+    print(f'You Got Admitted To {p[e-1]}')
     break
   else:
-    print("🎉 Congratulations! You answered all questions  correctly.")
-    print(f"You won the prize money of {p[-1]}!")
-  print("Game Over ✅")
+    print(f"🎉 Congratulations! You've made it to  {p[-1]} !")
+  print("Exam Over ✅")
   break
