@@ -1,5 +1,5 @@
 # #QUESTIONS BASED ON OOP
- 
+
 # #NUMBER 1
 
 class Car :
@@ -32,7 +32,7 @@ second_figure = Rectangle(34,73)
 first_figure.area()
 second_figure.area()
 
-#IMPROVED NUMBER 2 
+#IMPROVED NUMBER 2
 
 class Rectangle:
   def __init__(self,length, width):
@@ -46,16 +46,16 @@ while True:
 
     l=int(input("enter the length of the rectangle you want area of "))
     w=int(input("enter the width of the rectangle you want area of "))
-   
+
     first_figure = Rectangle(l,w)
     first_figure.area()
-    
+
     t=int(input("Do you want area of another rectangle ?\n" "if yes then press 1 and if no then press 0 " ))
     if t==0:
        break
 
     # NUMBER 3
-  
+
 class Person :
     def __init__(self,name,age):
         self.name = name
@@ -102,6 +102,6 @@ class Students:
         else:
          grade = "C"
         print(f'The average marks of {self.n} are {k}.\nAnd the grade is : {grade}')
-   
+
 Student_one=Students("HUZAIFA",87,93,98)
 Student_one.Average_Grade()
