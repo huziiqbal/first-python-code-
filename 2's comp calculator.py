@@ -25,3 +25,4 @@ for i in range (p+1):
 v = "" . join(s)
 w ="" .join(k[::-1])
 print(f"The Two's complement of {binary_number}  is : {v+w}")
+
