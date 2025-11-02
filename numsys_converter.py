@@ -46,3 +46,4 @@ if conversion_type == '3':
  v = "" . join(s)
  w ="" .join(k[::-1])
  print(f"The Two's complement of {binary_number2}  is : {v+w}")
+
