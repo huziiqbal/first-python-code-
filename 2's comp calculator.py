@@ -8,7 +8,6 @@ for y in binary_number:
         g.append('1')
     elif y == '1':
        g.append('0')
-f= len(g)
 s=[]
 k=[]
 h = g[::-1]
@@ -18,7 +17,7 @@ for u in h:
     elif u == '0' :
         k.append('1')
         break
-p = f-(len(k)) -1
+p = len(g)-(len(k)) -1
 i = 0
 for i in range (p+1):
         s.append(g[i])
