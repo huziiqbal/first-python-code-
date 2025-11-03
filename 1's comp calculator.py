@@ -5,5 +5,4 @@ for y in binary_number:
         g.append('1')
     elif y == '1':
         g.append('0')
-
 print(f'ones complement of {binary_number} is : {"".join(g)}')
