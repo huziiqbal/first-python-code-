@@ -1,3 +1,4 @@
+#Date = 3-11-2025
 decimal_number = int(input("Enter the decimal number you want to convert to binary:"))
 p=[]
 p.append(decimal_number%2)

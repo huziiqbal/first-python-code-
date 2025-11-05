@@ -1,3 +1,4 @@
+#Date = 3-11-2025
 conversion_type = input("which type of conversion you want to do?\n 1. for decimal to binary \n 2. for binary to one's complement \n 3. for binary to two's complement\n Enter your choice (1/2/3) :")
 if conversion_type == '1':
  p=[]

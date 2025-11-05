@@ -1,6 +1,7 @@
 # Logic: First take the 1's complement by flipping all bits,
 # then manually add 1 by flipping bits from the right until the first 0 is found,
 # to get the final 2's complement.
+#Date = 3-11-2025
 binary_number =input("Enter the binary number you want two's complement of :")
 g,s,k=[],[],[]
 for y in binary_number:

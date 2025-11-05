@@ -1,3 +1,4 @@
+#Date = 2-11-2025
 binary_number =input("Enter the binary number you want ones complement of :")
 g=[]
 for y in binary_number:
