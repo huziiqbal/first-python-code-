@@ -18,10 +18,9 @@ if conversion_type == '2':
         g.append('1')
     elif y == '1':
         g.append('0')
-
  print(f'ones complement of {binary_number} is : {"".join(g)}')
 if conversion_type == '3':
- c=[]
+ c,s,k=[],[],[]
  binary_number2 =input("Enter the binary number you want two's complement of :")
  for y in binary_number2:
     if y == '0':
@@ -29,8 +28,6 @@ if conversion_type == '3':
     elif y == '1':
        c.append('0')
  f= len(c)
- s=[]
- k=[]
  h = c[::-1]
  for u in h:
     if u == '1':
